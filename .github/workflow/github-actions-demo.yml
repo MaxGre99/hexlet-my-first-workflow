@@ -1,0 +1,7 @@
+name: hello-world
+on: [push]
+jobs:
+  Saying-Hello-World:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make say-hello
